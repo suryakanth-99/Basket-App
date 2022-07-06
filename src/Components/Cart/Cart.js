@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import { Box, Center } from "@chakra-ui/react";
 import CartItems from "./CartItems";
 const Cart = () => {
   const cartItems = useSelector((state) => state.cart.items);

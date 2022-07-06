@@ -20,8 +20,12 @@ const CartItems = (props) => {
         </Badge>
       </Box>
       <Box p="4">
-        <Button onClick={increaseCartItem}>+</Button>
-        <Button onClick={decreaseCartItem}>-</Button>
+        <Button ml="1" onClick={increaseCartItem}>
+          +
+        </Button>
+        <Button ml="1" onClick={decreaseCartItem}>
+          -
+        </Button>
       </Box>
     </Flex>
   );
